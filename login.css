@@ -8,15 +8,18 @@ body{
 .mycontainer{
     background-color:white;
    width:400px;
-   margin:100px auto;
+      margin:100px auto;
    padding:50px;
     border-radius:10px;
 }
 .show-password{
-    
-
+    width:auto;
+    margin:0;
+    padding:0;
 }
-input{
+input[type="email"],
+input[type="password"]
+{
     width:100%;
     padding:10px;
     margin:auto;
