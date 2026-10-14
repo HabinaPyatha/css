@@ -6,13 +6,13 @@ body{
      margin-left:150px
        }
  .p1{
-color:white;
+color: rgb(139, 138, 138);
 margin-top:50px; 
 margin-bottom:25px;
 font-size:30px;
  }  
  .p2{
-    color:white;
+    color: rgb(139, 138, 138);
     margin-top:20px;
     font-size:30px;
       letter-spacing:3px;
@@ -20,12 +20,12 @@ font-size:30px;
     margin-bottom:25px;
  }  
  .p3{
-    color:white;
+    color:rgb(139, 138, 138);
     margin-top:50px;
     font-size:25px;
     margin-bottom:50px;
-  
  }
+
  h1{
     color:white;
     font-size:40px;
