@@ -1,0 +1,13 @@
+.gallery{
+    display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+}
+.gallery-item{
+  margin:3%;
+   border:1px solid black;
+}
+.desc{
+    text-align:center;
+    font-size:20px;
+}
