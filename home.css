@@ -13,12 +13,12 @@ ul.topnav{
     padding:0;
     background-color:#333333;
     font-size:x-large;
-    text-decoration:none;
 }
 ul.topnav li a{
     display:block;
     color:#f1f1f1;
     padding:30px;   
+    text-decoration:none;
 }
 ul.info{
     display:flex;
