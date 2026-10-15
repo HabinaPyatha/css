@@ -12,7 +12,8 @@ ul.topnav{
     margin:0;
     padding:0;
     background-color:#333333;
-    font-size:x-large
+    font-size:x-large;
+    text-decoration:none;
 }
 ul.topnav li a{
     display:block;
@@ -39,7 +40,7 @@ h1{
     margin-left:10%;
     font-size:35px; 
 }
-button{
+.explore-btn{
     color:tomato;
     font-weight:bold;
 
@@ -48,6 +49,7 @@ button{
     padding:20px;
 border-radius:10px;
 width:12%;
+text-decoration:none;
 }
 .p2{
     text-align:center;
