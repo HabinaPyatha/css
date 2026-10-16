@@ -4,9 +4,14 @@
     box-sizing:border-box;
     scroll-behavior:smooth;
 }
+body{
+    font-family:Arial, sans-serif;
+    color:#222;
+    line-height:1.5;
+}
 .container{
  background-color:#08a9cc;  
- line-height:1.5;
+ padding-bottom:35px;
 }
 .nav-topic{
     display:flex;
@@ -15,6 +20,7 @@
     padding:18px 3%;
     background-color:#ffffff;
     width:100%;
+    gap:20px;
 }
 .nav-links{
     display:flex;
@@ -31,6 +37,7 @@
     display:flex;
     align-items:center;
     gap:14px;
+    flex-shrink:0;
 }
 .login-btn{
     color:#222;
@@ -39,11 +46,12 @@
     padding:11px 20px;
     font-size:14px;
     cursor:pointer; 
+    background-color:#ffffff;
 }
 .explore-btn{
     background-color:#e84935;
     color:#fff;
-    border:1 px solid #e84935;
+    border:1px solid #e84935;
     padding:12px 20px;
     font-size:14px;
     font-weight:bold;
@@ -51,7 +59,8 @@
     border-radius:10px;
 }
 .color{
-    color:white;
+   border:none;
+   border-top:1px solid rgba(255,255,255,0.6);
 }
 .create-btn{
     background-color:blue;
@@ -63,19 +72,19 @@
 
 }
 .mycontainer{
-    padding:14px 15px;
-}
-.check-item{
-    padding:14px 15px;
+    flex:1;
+    min-width:0;
 }
 .right{
-    display: flex;
-    justify-content: center;
+   flex:display;
+   flex-wrap:wrap;
     gap: 15px;
-    flex-wrap: wrap;
+    border:1px solid black;
+    background-color:white;
+    border-radius:10px;
+    padding:10px 60px;
 }
 .photo-box {
-    display: flex;
     gap: 15px;
     align-items: center;
      gap:100px;
@@ -110,10 +119,6 @@
     font-size:18px;
     color:rgb(101, 80, 80);
 }
-.box{
-    <i class="fa-solid fa-grid-2-plus" style="font-size:24px;"></i>
-
-}
 .add-btn{
       border-radius:10px;
     padding:14px 15px;
@@ -143,7 +148,7 @@
     border-radius:10px;
     padding:20px 10px;
 }
-.create-btn{
+.creates-btn{
     width:100%;
 }
 .check-box{
@@ -154,4 +159,11 @@
 }
 .add-btn{
     width:100%;
+}
+.make{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:40px;
+padding:40px 5%;
 }
