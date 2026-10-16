@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    color:#222;
+}
+.nav-topic{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 3%;
+    background-color:#ffffff;
+    width:100%;
+}
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:32px;
+    list-style-type:none;
+}
+.nav-links li a{
+    text-decoration:none;
+    font-size:15px;
+    color:#333;
+}
+.nav-buttons{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+.login-btn{
+    color:#222;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:11px 20px;
+    font-size:14px;
+    cursor:pointer; 
+}
+.explore-btn{
+    background-color:#e84935;
+    color:#fff;
+    border:1 px solid #e84935;
+    padding:12px 20px;
+    font-size:14px;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:10px;
+}
