@@ -112,9 +112,46 @@
 }
 .box{
     <i class="fa-solid fa-grid-2-plus" style="font-size:24px;"></i>
+
 }
 .add-btn{
       border-radius:10px;
     padding:14px 15px;
-
+}
+.box{
+    margin:0 50px;
+}
+.box p{
+    color:rgb(101, 80, 80);
+    font-size:18px;
+}
+.check-box{
+      margin:0 50px;
+}
+.check-box p{
+     color:rgb(101, 80, 80);
+    font-size:18px;
+}
+.collage{
+    display:flex;
+    align-items:center;
+    width:100%;
+}
+.box{
+    line-height:1.5;
+    border:1px solid black;
+    border-radius:10px;
+    padding:20px 10px;
+}
+.create-btn{
+    width:100%;
+}
+.check-box{
+    line-height:1.5;
+    border:1px solid black;
+    border-radius:10px;
+    padding:20px 15px;
+}
+.add-btn{
+    width:100%;
 }
