@@ -2,10 +2,11 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    scroll-behavior:smooth;
 }
-body{
- background-color:#08a9cc;
-    
+.container{
+ background-color:#08a9cc;  
+ line-height:1.5;
 }
 .nav-topic{
     display:flex;
@@ -92,4 +93,20 @@ body{
     padding-top:20px;
     margin-top:20px;
 }
-
+.card{
+    text-align:center;
+    margin-top:5%;
+    line-height:1.5;
+}
+.p1{
+    font-weight:bold;
+    color:blue;  
+    font-size:15px;
+}
+.h{
+   padding:0 30%;
+}
+.p2{
+    font-size:18px;
+    color:rgb(101, 80, 80);
+}
