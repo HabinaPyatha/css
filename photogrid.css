@@ -86,13 +86,12 @@ body{
 }
 .photo-box {
     gap: 15px;
-    align-items: center;
-     gap:100px;
-
+   display:grid;
+   grid-template-columns:repeat(2, 1fr);
 }
 .photo-box img {
-    width: 200px;
-   height:100px;
+    width: 100%;
+   height:150px;
    object-fit:cover;
    border-radius:12px;
 }
@@ -141,6 +140,11 @@ body{
     display:flex;
     align-items:center;
     width:100%;
+    .collage i.fa-solid {
+    font-size: 30px;
+    color: #08a9cc;
+    margin-bottom: 10px;
+}
 }
 .box{
     line-height:1.5;
@@ -150,15 +154,25 @@ body{
 }
 .creates-btn{
     width:100%;
+     line-height:1.5;
+    border:1px solid black;
+    border-radius:10px;
+    padding:15px 12px;
+    background-color:rgb(48, 48, 232);
+    color:White;
+    font-size:20px;
 }
 .check-box{
     line-height:1.5;
     border:1px solid black;
     border-radius:10px;
-    padding:20px 15px;
+    padding:20px 10px;
 }
 .add-btn{
     width:100%;
+    padding:15px 12px;
+     color:rgb(48, 48, 232);
+     font-size:20px;
 }
 .make{
 display:flex;
