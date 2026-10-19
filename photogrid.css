@@ -140,12 +140,13 @@ body{
     display:flex;
     align-items:center;
     width:100%;
+}
     .collage i.fa-solid {
     font-size: 30px;
     color: #08a9cc;
     margin-bottom: 10px;
 }
-}
+
 .box{
     line-height:1.5;
     border:1px solid black;
