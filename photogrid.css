@@ -7,7 +7,6 @@
 body{
     font-family:Arial, sans-serif;
     color:#222;
-    line-height:1.5;
 }
 .container{
  background-color:#08a9cc;  
@@ -58,22 +57,21 @@ body{
     cursor:pointer;
     border-radius:10px;
 }
-.color{
-   border:none;
-   border-top:1px solid rgba(255,255,255,0.6);
-}
 .create-btn{
     background-color:blue;
     color:white;
     border-radius:10px;
     padding:14px 15px;
     border:blue;
-    line-height:1.5;
 
 }
 .mycontainer{
     flex:1;
     min-width:0;
+    color:white;
+    font-size:24px;
+    margin:0 5%;
+    line-height:1.5;
 }
 .right{
    flex:display;
@@ -100,6 +98,9 @@ body{
     gap:50px;
     padding-top:20px;
     margin-top:20px;
+    margin-left:10%;
+    color:white;
+    font-size:20px;
 }
 .card{
     text-align:center;
@@ -143,8 +144,12 @@ body{
 }
     .collage i.fa-solid {
     font-size: 30px;
-    color: #08a9cc;
+    background-color: #08a9cc;
     margin-bottom: 10px;
+    border:1px solid #08a9cc;
+    color:white;
+    padding:10px 12px;
+    border-radius:10px;
 }
 
 .box{
